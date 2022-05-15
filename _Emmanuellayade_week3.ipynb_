@@ -1,0 +1,223 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "30461b33",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "RAVEN = 'quoth'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "39f4209a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "RAVEN = 'Nevermore!'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "fff41dfd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Nevermore!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(RAVEN)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d93c68f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "52.142857142857146\n"
+     ]
+    }
+   ],
+   "source": [
+    "WEEKS = 19 % 10 \n",
+    "WEEKS = WEEKS + 100 \n",
+    "WEEKS = WEEKS + (2 ** 8)\n",
+    "WEEKS = WEEKS / 7\n",
+    "print (WEEKS) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "9364892f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Danger Will Robinson!\n",
+      "Danger \n"
+     ]
+    }
+   ],
+   "source": [
+    "WILL_ROBINSON = 'Danger Will Robinson!'\n",
+    "KLAXON = WILL_ROBINSON[:7]\n",
+    "print (WILL_ROBINSON)\n",
+    "print (KLAXON)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "40faafab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Danger Danger Danger Danger Danger \n"
+     ]
+    }
+   ],
+   "source": [
+    "print (KLAXON * 5) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "d803d778",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Michaelangelo', 'Leonardo', 'Rafael', 'Donatello', 'Heroes in a half shell.']\n"
+     ]
+    }
+   ],
+   "source": [
+    "TEENAGE_MUTANT_NINJAS = ('Michaelangelo. Leonardo. Rafael. Donatello. Heroes '\n",
+    "                     'in a half shell.')\n",
+    "TURTLE_POWER = TEENAGE_MUTANT_NINJAS.split(\". \")\n",
+    "print(TURTLE_POWER)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "601899cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A long-tailed cat in a room full of rockin' chairs.\n"
+     ]
+    }
+   ],
+   "source": [
+    "NERVOUS_AS = \"//////////A long-tailed cat in a room full of rockin' chairs.,,,,,,,,,, \".strip()\n",
+    "NERVOUS_AS = NERVOUS_AS.rstrip(\",\").lstrip(\"/\")\n",
+    "print (NERVOUS_AS)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "0e48880a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Dr. Strangelove Or: How I Learned To Stop Worrying And Love The Bomb\n"
+     ]
+    }
+   ],
+   "source": [
+    "MOVIE = 'dr. strangelove or: how i learned to stop worrying and love the bomb'\n",
+    "ENTITLED = MOVIE.title()\n",
+    "print(ENTITLED)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "b9b91742",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n",
+      "False\n",
+      "None\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "IS_TRUE = True\n",
+    "IS_FALSE = False\n",
+    "IS_NONE = None \n",
+    "INTEGER_EQUIV = IS_TRUE == 1 and IS_FALSE == 0 \n",
+    "print (IS_TRUE)\n",
+    "print (IS_FALSE)\n",
+    "print (IS_NONE)\n",
+    "print(INTEGER_EQUIV) \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0da2ca1a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
